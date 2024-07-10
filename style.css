@@ -1,0 +1,141 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #270043;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+    width: 3rem;
+    padding: 28px 24px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #9135a5;
+  }
+  
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1606431318422-f48da4f56ab8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHB1cnBsZSUyMGhvcml6b250YWwlMjBza3l8ZW58MHx8MHx8fDA%3D');
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero h1, .hero p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    margin: 0;
+  }
+
+  .hero h1 {
+    font-size: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero p {
+    top: 60%;
+    font-size: x-large;
+  }
+  
+  .hero button {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero button img {
+    width: 40px;
+    height: 40px; 
+    vertical-align: middle;
+  }
+  
+  
+  .section2 {
+    padding: 50px;
+    background-color: #270043;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 1 column for score, 2 columns for cards */
+    gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #d8e1ff;
+    padding: 20px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the center horizontally */
+    justify-content: center; /* Align items in the center vertically */
+  }
+  
+  .score {
+    text-align: center; /* Center text horizontally */
+    margin-bottom: 10px; /* Add some margin */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .score img {
+    display: none;
+  }
+  
+  .scorevalue {
+    font-size: xx-large;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for cards */
+    grid-template-rows: auto auto; /* 2 rows for cards */
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f3e9ff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+  }
+  
+  .card img {
+    height: 24rem;
+    width: 100%;
+    object-fit: cover; /* Memastikan gambar memenuhi area dengan tetap mempertahankan aspek ratio */
+    margin-bottom: 10px;
+    border-radius: 2rem;
+  }
+  
+  
+  .card p {
+    margin-bottom: 5px;
+  }
+
+  
+  

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome To Grows</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><img src="asset/logo.png" alt="logo" class="logo"></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome To Grows</h1>
+      <p>Explore</p>
+      <button id="scrollToCardsBtn"><img src="asset/arrow.png" alt="arrow" loading="lazy"></button>
+    </section>
+
+    <section class="section2">
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="score">
+            <h1 id="scoreheader">Your Score</h1>
+            <img src="asset/animation.gif"/>
+            <p class="scorevalue">80</p>
+            <button class="funcbutton" onclick="myFunction()">🎉</button>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <div class="cards">
+            <div class="card">
+              <img src="asset/event1.jpg" alt="Event 1">
+              <p><b>Event 1</b></p>
+              <p>Description: Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="card">
+              <img src="asset/event2.jpg" alt="Event 2">
+              <p><b>Event 2</b></p>
+              <p>Description: Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="card">
+              <img src="asset/event3.jpg" alt="Event 3">
+              <p><b>Event 3</b></p>
+              <p>Description: Lorem ipsum dolor sit amet...</p>
+            </div>
+            <div class="card">
+              <img src="asset/event4.jpg" alt="Event 4">
+              <p><b>Event 4</b></p>
+              <p>Description: Lorem ipsum dolor sit amet...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
